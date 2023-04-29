@@ -1,0 +1,16 @@
+\wde{5.1.1/2 Inner Prod. Spaces (over $\R, \C$)} Let $V$ be a vector space over $F=\R$ or $F=\C$.
+An inner product on $V$ is a map $(--,--) : V \times V \to F$,
+s.t. $\forall \vec{x}, \vec{y}, \vec{z} \in V$ and $\lambda, \mu \in F$:
+(1) $(\lambda \vec{x} + \mu \vec{y}, \vec{z}) = \lambda(\vec{x}, \vec{z}) + \mu(\vec{y}, \vec{z})$
+(2) $(\vec{x}, \vec{y}) = \overline{(\vec{y}, \vec{x})}$
+(3) $(\vec{x}, \vec{x}) \ge 0$ and $(\vec{x}, \vec{x}) = 0 \iff \vec{x} = \vec{0}$.
+An inner product space is a vector space with an inner product.
+For $\C^n$: $(\vec{x}, \vec{y}) = \sum_{i=1}^n x_i \overline{y_i}$ is standard.
+\wde{5.1.5 Norm} The norm of $\vec{x} \in V$ is $\|\|\vec{x}\|\| = \sqrt{(\vec{x}, \vec{x})}$.
+Vectors of length (norm) $1$ are called units.
+Two vectors $\vec{x}, \vec{y}$ are orthogonal iff $(\vec{x}, \vec{y}) = 0$.
+Pythagoras: if $\vec{x}, \vec{y}$ are orthogonal then $\|\|\vec{x} + \vec{y}\|\|^2 = \|\|\vec{x}\|\|^2 + \|\|\vec{y}\|\|^2$.
+\wde{5.1.7 Orthonormal family} $(\vec{v}_i)_{i \in I}$ is an orthonormal family iff. $\forall i, j \in I$, $(\vec{v}_i, \vec{v}_j) = \delta_{ij}$.
+An o.n. family that is a basis is an orthonormal basis.
+For such an orthonormal basis of $V$: $\forall \vec{w} \in V: \vec{w} = \sum_{i \in I} (\vec{w}, \vec{v}_i) \vec{v}_i$.
+\wt{5.1.10} Every finite dimensional inner product space has an orthonormal basis.
